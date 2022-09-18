@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1> <u> Welcome to the Regiatration Page! </h1></u>
+    <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+	<form action = "login.html/">
+	<button type= "submit">REGISTER</button></form>
+        <div class="formdesign" id="name"><center>
+            User Name : <input type="text" name="username" required><b><span class="formerror"> </span></b>
+        </div></center>
+
+        <div class="formdesign" id="email"><center>
+            Email-ID : <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+        </div></center>
+
+        <div class="formdesign" id="phone"><center>
+            Mobile No : <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
+        </div></center>
+
+        <div class="formdesign" id="pass"><center>
+            Password: <input type="password" name="fpass" required><b><span class="formerror"</span></b>
+        </div></center>
+
+        <div class="formdesign" id="cpass"><center>
+            Confirm Password: <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+        </div></center>
+	
+        <center> <a href = "login.html"> <input class="but" type="submit" value="Register"> </center>
+       
+
+    </form>
+</body>
+<script src="index.js"></script>
+
+</html>
